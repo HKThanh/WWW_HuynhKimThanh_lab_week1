@@ -77,4 +77,13 @@ public class Account {
         this.status = status;
     }
 
+    @Override
+    public String toString() {
+        return "Account{" +
+                ", fullName='" + fullName + '\'' +
+                ", email='" + email + '\'' +
+                ", phone='" + phone + '\'' +
+                ", status=" + status +
+                '}';
+    }
 }
